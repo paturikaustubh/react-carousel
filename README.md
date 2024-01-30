@@ -1,6 +1,6 @@
 # React Carouel 🎞️
 
-Tried to build a unique image carousel in React. The main aspect that separates this from most of the other carousels are the navigation buttons.
+Built simple yet unique image carousel in React. The main aspect that separates this from most of the other carousels are the navigation buttons.
 
 Experience it [here](https://paturikaustubh.github.io/react-carousel/)! ⚡
 
