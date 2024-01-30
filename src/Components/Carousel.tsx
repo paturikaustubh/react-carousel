@@ -11,7 +11,7 @@ export default function Carousel({ items }: { items: CarouselArray }) {
           {items.map(({ img }) => (
             <img
               className="carousel-img"
-              src={`src\\assets\\${img}.jpg`}
+              src={`assets/${img}.jpg`}
               width={"100%"}
               style={{
                 translate: `${-100 * activeIndx}%`,
