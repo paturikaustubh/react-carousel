@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 style={{ textAlign: "center", fontSize: "2.5em" }}>
+      <h1 style={{ textAlign: "center", fontSize: "2.5em", color: "#171717" }}>
         React Carousel Component
       </h1>
       <Carousel items={items} />

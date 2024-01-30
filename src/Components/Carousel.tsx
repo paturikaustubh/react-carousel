@@ -1,4 +1,4 @@
-import { Touch, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { CarouselArray } from "../types";
 
 export default function Carousel({ items }: { items: CarouselArray }) {
