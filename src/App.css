@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  background-color: #d4d4d4;
+  background-color: #e5e5e5;
 }
 
 .container {
@@ -21,10 +21,13 @@ body {
 
 .carousel-container {
   max-width: var(--carousel-width);
-  border-radius: 1rem;
-  overflow: hidden;
   margin-inline: 1rem;
   margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .carousel-item {
@@ -33,6 +36,8 @@ body {
   justify-content: start;
   align-items: start;
   transform: 300ms ease-in-out;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .carousel-img-holder {
@@ -93,19 +98,22 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.5em;
-  padding: 1em;
+  /* padding: 1em; */
   background: linear-gradient(0deg, rgba(0 0 0 / 0.7) 50%, transparent);
   color: white;
   text-align: center;
   z-index: 2;
+  transition: height 500ms ease-in-out;
 }
 
 .carousel-item-title {
   font-size: 2em;
+  padding-top: 1rem;
 }
 
 .carousel-item-desc {
   font-weight: 200;
+  padding-bottom: 1rem;
 }
 
 .carousel-item-cursor {
@@ -119,7 +127,23 @@ body {
   backdrop-filter: blur(1px);
   scale: 0;
   border-radius: 50%;
-  transition: scale 300ms ease-in-out, rotate 300ms ease-in-out;
+  transition: scale 300ms ease-out, rotate 300ms ease-in-out;
+}
+
+.carousel-radio-container {
+  all: unset;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-radio-buttons {
+  display: flex;
+  width: var(--carousel-width);
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 @media (max-width: 768px) {

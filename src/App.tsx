@@ -6,15 +6,14 @@ function App() {
   const items: CarouselArray = [
     {
       img: "1",
-      title: "Assassin's Creed: Origins",
-      description:
-        "An open-world game which takes place in Egypt where the protagonist goes on a journey to assassinate the people responsible for the death of his son.An open-world game which takes place in Egypt where the protagonist goes on a journey to assassinate the people responsible for the death of his son.",
     },
     {
       img: "2",
     },
     {
       img: "3",
+      title: "You can have a title too",
+      description: "Followed by short description about it.",
     },
     {
       img: "4",
@@ -26,7 +25,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 style={{ textAlign: "center", fontSize: "2.5em", color: "#171717" }}>
+      <h1 style={{ textAlign: "center", fontSize: "2.8em", color: "#171717" }}>
         React Carousel Component
       </h1>
       <Carousel items={items} />
