@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# React Carouel 🎞️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tried to build a unique image carousel in React. The main aspect that separates this from most of the other carousels are the navigation buttons.
 
-Currently, two official plugins are available:
+Experience it [here](https://paturikaustubh.github.io/react-carousel/)! ⚡
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This feature can be experienced on larger screens only!🖥️
 
-## Expanding the ESLint configuration
+## What is a carousel?
+Not a merry-go-round 🎠 that you find in amusement parks, but it's a slideshow that cycles thrugh a series of images, generally used to show multiple images/content in a single screen/section. And kinda also helps in making the website look cool 😎.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tech Stack 👨🏻‍💻
+- React.Js (Vite)
+- Icons: [SVG Repo](https://www.svgrepo.com/)\
+Yea, that's it I guess...
+<br>
+I am open to all suggestions. Feel free to approach me or make a pull request after adding your pinch of spice to it by forking this repo.
